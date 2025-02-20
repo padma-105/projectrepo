@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 import './login.css'
 const Login = () => {
     return(
-        <div class ="main-container">
+        <div className ="main-container">
           <form action="">
             <h2 style={{textAlign:"center"}}>login</h2>
-            <div class= "input-box">
+            <div className= "input-box">
                 <input type="text" name="username" placeholder="Enter Your Name &#128100;" required/>
             </div>
-            <div class= "input-box">
+            <div className= "input-box">
                 <input type="email" name="email"  placeholder="Enter Your Mail &#128231;" required/>
             </div>
-            <div class= "input-box">
+            <div className= "input-box">
                 <input type="password" name="password"  placeholder="Enter Your Password &#128274;" required/>
             </div>
-            <div class= "remember-box">
+            <div className= "remember-box">
                <label><input type="checkbox" required/>remember me</label> 
                <a href="#">Forgot Password</a>
             </div>

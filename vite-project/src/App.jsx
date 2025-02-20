@@ -8,6 +8,7 @@ import Events from './pages/events'
 import Dining from './pages/dining'
 import Login from './pages/login'
 import Register from './pages/register'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Route path= "/register" element = {<Register/>}/>
       
      </Routes>
+     <Footer/>
     </>
   )
 }
